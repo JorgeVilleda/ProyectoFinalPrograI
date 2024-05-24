@@ -4,9 +4,9 @@ import psycopg2
 app=Flask(__name__)
 
 conn= psycopg2.connect(
-    dbname="ProyectoFinal",
+    dbname="FinalPrograI",
     user="postgres",
-    password="M3y",
+    password="Alberjo0512",
     host="localhost"
 )
 
