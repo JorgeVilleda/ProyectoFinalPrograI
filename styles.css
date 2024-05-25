@@ -1,3 +1,7 @@
+#body{
+    background-color: azure;
+}
+
 #prcol{ 
     background-color: azure;
     padding-right: 20px;
@@ -16,4 +20,19 @@
     text-align: center;
     margin-left: auto;
 
+}
+
+
+/*Estilos_portal_de_profesores*/
+
+.containerpr{
+    display: flex;
+    align-items: center;
+}
+.texto{ 
+    padding: 20px;
+}
+#umglogo{ 
+    margin-left: 65%;
+    width: 120px;
 }
