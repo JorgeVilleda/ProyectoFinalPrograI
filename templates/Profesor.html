@@ -10,29 +10,112 @@
 <body>
     <header>
         <div class="containerpr">
-            <div class="texto">
-                <h1>Bienvenido!</h1>
-                <h2>Portal de Profesores</h2>
+            <div class="textopr">          
+                    <h1 class="txt">Bienvenido!</h1>
+                    <h2 class="txt">Portal de Profesores</h2>
             </div>
-            <img src="../templates/logoumg.png" alt="logo umg" id="umglogo">
+            <a href="index.html" class="inicio">Inicio</a>
+            <img src="../templates/logoumg.png" class="umglogo" alt="logoumg">
+            
         </div>
     </header>
-
-        <div>
-            <button>Agregar Profesor</button>
-        </div>
-            <div class="mb-3">
-                <input type="text" class="form-control" placeholder="Nombres">
-                <input type="text" class="form-control" placeholder="Apellidos">
-                <input type="text" class="form-control" placeholder="Teléfono">
-                <input type="text" class="form-control" placeholder="Correo">
+        <div class="contenedor">
+            <div class="titleform">
+                <h4>Agregar nuevo Profesor</h4>
             </div>
-    <footer>
-
-    </footer>
-
-
-
-
+            <!--Formulario para agregar nuevos usuarios-->  
+        </div>   
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <form class="agregarprofesor">
+                        <div class="campoformulario">
+                            <label class="labelformulario" for="fnombre">Nombre:</label>
+                            <input class="inputformulario" type="text">
+                        </div>
+        
+                        <div class="campoformulario">
+                            <label class="labelformulario" for="fapellido">Apellido:</label>
+                            <input class="inputformulario" type="text">
+                        </div>
+        
+                        <div class="campoformulario">
+                            <label class="labelformulario" for="ftelefono">Teléfono:</label>
+                            <input class="inputformulario" type="number">
+                        </div>
+        
+                        <div class="campoformulario">
+                            <label class="labelformulario" for="fcorreo">Correo:</label>
+                            <input class="inputformulario" type="femail">
+                        </div>
+                        <div class="campoformulario">
+                            <button type="button" class="btn btn-success">Agregar Profesor</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th scope="col">ID</th>
+                                <th scope="col">Nombre</th>
+                                <th scope="col">Apellido</th>
+                                <th scope="col">Teléfono</th>
+                                <th scope="col">Correo</th>
+                                <th scope="col">Editar</th>
+                                <th scope="col">Eliminar</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>.</td>
+                                <td>.</td>
+                                <td>.</td>
+                                <td>.</td>
+                                <td><button type="button" class="btn btn-warning">Editar</button></td>
+                                <td><button type="button" class="btn btn-danger">Eliminar</button></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>.</td>
+                                <td>.</td>
+                                <td>.</td>
+                                <td>.</td>
+                                <td><button type="button" class="btn btn-warning">Editar</button></td>
+                                <td><button type="button" class="btn btn-danger">Eliminar</button></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>.</td>
+                                <td>.</td>
+                                <td>.</td>
+                                <td>.</td>
+                                <td><button type="button" class="btn btn-warning">Editar</button></td>
+                                <td><button type="button" class="btn btn-danger">Eliminar</button></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>.</td>
+                                <td>.</td>
+                                <td>.</td>
+                                <td>.</td>
+                                <td><button type="button" class="btn btn-warning">Editar</button></td>
+                                <td><button type="button" class="btn btn-danger">Eliminar</button></td>
+                            </tr>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>.</td>
+                                <td>.</td>
+                                <td>.</td>
+                                <td>.</td>
+                                <td><button type="button" class="btn btn-warning">Editar</button></td>
+                                <td><button type="button" class="btn btn-danger">Eliminar</button></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
 </body>
 </html>
