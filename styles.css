@@ -1,0 +1,19 @@
+#prcol{ 
+    background-color: azure;
+    padding-right: 20px;
+}
+#estcol{ 
+    padding-left: 20px;
+    background-color: azure;
+    padding-right: 20px;
+}
+#crcol{ 
+    padding-left: 20px;
+    background-color: azure;
+    padding-right: 20px;
+}
+.col {
+    text-align: center;
+    margin-left: auto;
+
+}
